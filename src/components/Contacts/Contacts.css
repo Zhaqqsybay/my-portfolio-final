@@ -1,0 +1,67 @@
+body {
+    background-color: #2C3E50; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contacts-container {
+    background-color: rgba(30, 30, 30, 0.3);
+    color: #ECF0F1; 
+    padding: 40px 50px;
+    border-radius: 10px;
+    max-width: 700px; 
+    margin: 40px auto; 
+    box-shadow: 0 4px 8px rgba(143, 137, 137, 0.2);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    
+}
+
+.contacts-container h1 {
+    color: #34495E;
+    margin-bottom: 20px;
+}
+
+.contacts-container p {
+    font-size: 18px;
+    margin-bottom: 30px; 
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-top: 8px;
+    border: 2px solid #34495E;
+    background-color: rgba(30, 30, 30, 0.3);
+    color: #ECF0F1;
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+button {
+    background-color: #1ABC9C; 
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px; 
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #16A085; 
+    transform: translateY(-2px); 
+}
+input::placeholder, 
+textarea::placeholder {
+    color: #c9c9c9; /* Цвет placeholder */
+    opacity: 1; /* Убедитесь, что прозрачность 100% для совместимости с Firefox */
+}

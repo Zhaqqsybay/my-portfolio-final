@@ -1,0 +1,22 @@
+.footer-container {
+    padding: 20px;
+    text-align: center; 
+    width: 95%;
+    margin-top: 40px;
+}
+
+.footer-links {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.footer-links a {
+    color: var(--link-color); 
+    margin: 0 10px; 
+    text-decoration: none; 
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: var(--link-hover-color); 
+}
